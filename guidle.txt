@@ -12,6 +12,8 @@ export default defineConfig({
     base: "/thuy_linh/" // với thuy_linh là repo trên github
 })
 
+npm run build
+
 copy thừ mục .github vào dự án
 
 tạo mới một repo và đẩy hết code lên
