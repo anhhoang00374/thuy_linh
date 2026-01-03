@@ -2,43 +2,45 @@ export const ALL_TESTS = {
     test1: {
         name: 'Bài test 1 - Ngày 03-01-2026',
         multipleChoice: [
-            { question: "Chọn cách viết Katakana đúng của 'やま':", options: ["ヤマ", "ムシ", "モモ", "サクラ"], correct: 0, explanation: "やま viết bằng Katakana là ヤマ" },
-            { question: "Chọn cách viết Katakana đúng của 'やすみ':", options: ["ムシ", "ヤスミ", "ヒル", "シロ"], correct: 1, explanation: "やすみ viết bằng Katakana là ヤスミ" },
-            { question: "Chọn cách viết Katakana đúng của 'むし':", options: ["ユメ", "ヤマ", "ムシ", "ラン"], correct: 2, explanation: "むし viết bằng Katakana là ムシ" },
-            { question: "Chọn cách viết Katakana đúng của 'ゆめ':", options: ["ヒル", "モモ", "サクラ", "ユメ"], correct: 3, explanation: "ゆめ viết bằng Katakana là ユメ" },
-            { question: "Chọn cách viết Katakana đúng của 'もも':", options: ["モモ", "ハレ", "ヤマ", "ツクエ"], correct: 0, explanation: "もも viết bằng Katakana là モモ" },
-            { question: "Chọn cách viết Katakana đúng của 'さよなら':", options: ["クスリヤ", "サヨナラ", "ケサ", "フヘ"], correct: 1, explanation: "さよなら viết bằng Katakana là サヨナラ" },
-            { question: "Chọn cách viết Katakana đúng của 'らん':", options: ["ヤスミ", "ムシ", "ラン", "イエ"], correct: 2, explanation: "らん viết bằng Katakana là ラン" },
-            { question: "Chọn cách viết Katakana đúng của 'くすりや':", options: ["タチ", "ヌノ", "アサ", "クスリヤ"], correct: 3, explanation: "くすりや viết bằng Katakana là クスリヤ" },
-            { question: "Chọn cách viết Katakana đúng của 'ひる':", options: ["ヒル", "シロ", "サクラ", "ヤマ"], correct: 0, explanation: "ひる viết bằng Katakana là ヒル" },
-            { question: "Chọn cách viết Katakana đúng của 'はれ':", options: ["モモ", "ハレ", "ラン", "ユメ"], correct: 1, explanation: "はれ viết bằng Katakana là ハレ" },
-            { question: "Chọn cách viết Katakana đúng của 'しろ':", options: ["ヤスミ", "クスリヤ", "シロ", "ツクエ"], correct: 2, explanation: "しろ viết bằng Katakana là シロ" },
-            { question: "Chọn cách viết Katakana đúng của 'あさ':", options: ["ヒル", "サヨナラ", "ムシ", "アサ"], correct: 3, explanation: "あさ viết bằng Katakana là アサ" },
-            { question: "Chọn cách viết Katakana đúng của 'いえ':", options: ["イエ", "ハレ", "ヤマ", "ケサ"], correct: 0, explanation: "いえ viết bằng Katakana là イエ" },
-            { question: "Chọn cách viết Katakana đúng của 'さくら':", options: ["フヘ", "サクラ", "タチ", "ラン"], correct: 1, explanation: "さくら viết bằng Katakana là サクラ" },
-            { question: "Chọn cách viết Katakana đúng của 'けさ':", options: ["シロ", "ヌノ", "ケサ", "ムシ"], correct: 2, explanation: "けさ viết bằng Katakana là ケサ" },
-            { question: "Chọn cách viết Katakana đúng của 'たち':", options: ["アサ", "ユメ", "イエ", "タチ"], correct: 3, explanation: "たち viết bằng Katakana là タチ" },
-            { question: "Chọn cách viết Katakana đúng của 'つくえ':", options: ["ツクエ", "サヨナラ", "ヒル", "モモ"], correct: 0, explanation: "つくえ viết bằng Katakana là ツクエ" },
-            { question: "Chọn cách viết Katakana đúng của 'ぬの':", options: ["クスリヤ", "ヌノ", "ハレ", "ヤスミ"], correct: 1, explanation: "ぬの viết bằng Katakana là ヌノ" },
-            { question: "Chọn cách viết Katakana đúng của 'へや':", options: ["ラン", "サクラ", "ヘヤ", "タチ"], correct: 2, explanation: "へや viết bằng Katakana là ヘヤ" }
+            { question: "Chọn nghĩa đúng của từ 'lối vào':", options: ["いりぐち", "でぐち", "まど", "かぎ"], correct: 0, explanation: "いりぐち nghĩa là lối vào" },
+            { question: "Chọn nghĩa đúng của từ 'lối ra':", options: ["いりぐち", "でぐち", "みず", "ゆび"], correct: 1, explanation: "でぐち nghĩa là lối ra" },
+            { question: "Chọn nghĩa đúng của từ 'chói loá':", options: ["かぎ", "ごはん", "ぴかぴか", "がか"], correct: 2, explanation: "ぴかぴか nghĩa là chói loá" },
+            { question: "Chọn nghĩa đúng của từ 'cửa sổ':", options: ["いりぐち", "ぴかぴか", "おみやげ", "まど"], correct: 3, explanation: "まど nghĩa là cửa sổ" },
+            { question: "Chọn nghĩa đúng của từ 'chìa khóa':", options: ["かぎ", "でぐち", "ゆび", "がか"], correct: 0, explanation: "かぎ nghĩa là chìa khóa" },
+            { question: "Chọn nghĩa đúng của từ 'nước':", options: ["ごはん", "みず", "まど", "かぞく"], correct: 1, explanation: "みず nghĩa là nước" },
+            { question: "Chọn nghĩa đúng của từ 'cơm':", options: ["おみやげ", "ぴかぴか", "ごはん", "いりぐち"], correct: 2, explanation: "ごはん nghĩa là cơm" },
+            { question: "Chọn nghĩa đúng của từ 'quà lưu niệm':", options: ["かぎ", "がか", "みず", "おみやげ"], correct: 3, explanation: "おみやげ nghĩa là quà lưu niệm" },
+            { question: "Chọn nghĩa đúng của từ 'ngón tay':", options: ["ゆび", "からだ", "でぐち", "まど"], correct: 0, explanation: "ゆび nghĩa là ngón tay" },
+            { question: "Chọn nghĩa đúng của từ 'cơ thể':", options: ["ぴかぴか", "からだ", "ごはん", "かぎ"], correct: 1, explanation: "からだ nghĩa là cơ thể" },
+            { question: "Chọn nghĩa đúng của từ 'gia đình':", options: ["おみやげ", "みず", "かぞく", "がか"], correct: 2, explanation: "かぞく nghĩa là gia đình" },
+            { question: "Chọn nghĩa đúng của từ 'họa sĩ':", options: ["いりぐち", "ゆび", "からだ", "がか"], correct: 3, explanation: "がか nghĩa là họa sĩ" }
         ],
         matching: [{
-            "left": [
-                "わたしは　いぬが　すき　です",
-                "せんせいは　さんじゅうごさい　です",
-                "きょうは　なんようび　ですか",
-                "これは　はな　ですか",
-                "いま　なんじ　ですか"
+            left: [
+                "いただきます。",
+                "ごちそうさまでした。",
+                "もういちど おねがいします",
+                "ありがとうございます。",
+                "どういたしまして",
+                "すみません。"
             ],
-            "right": [
-                "Bây giờ là mấy giờ",
-                "Giáo viên 35 tuổi",
-                "Đây là hoa đúng không?",
-                "Tôi thích chó",
-                "Hôm nay là thứ mấy"
+            right: [
+                "Xin lỗi",
+                "Vui lòng lặp lại một lần nữa",
+                "Cảm ơn (sau bữa ăn)",
+                "Không có chi",
+                "Xin cảm ơn",
+                "Cảm ơn, xin mời ăn (trước bữa ăn)"
             ],
-            "correctPairs": [[0, 3], [1, 1], [2, 4], [3, 2], [4, 0]],
-            "explanation": "わたしはいぬがすきです = Tôi thích chó, せんせいはさんじゅうごさいです = Giáo viên 35 tuổi, きょうはなんようびですか = Hôm nay là thứ mấy, これははなですか = Đây là hoa đúng không?, いまなんじですか = Bây giờ là mấy giờ"
+            correctPairs: [
+                [0, 5],
+                [1, 2],
+                [2, 1],
+                [3, 4],
+                [4, 3],
+                [5, 0]
+            ],
+            explanation: "いただきます。= Cảm ơn, xin mời ăn (trước bữa ăn), ごちそうさまでした。= Cảm ơn (sau bữa ăn), もういちど おねがいします = Vui lòng lặp lại một lần nữa, ありがとうございます。= Xin cảm ơn, どういたしまして = Không có chi, すみません。= Xin lỗi"
         }]
         ,
         typing: [
@@ -66,158 +68,218 @@ export const ALL_TESTS = {
         ],
         wordConnect: [
             {
-                word: "ウミ",
-                options: ["えみ", "うみ", "おみ", "いみ"],
-                correct: 1,
-                explanation: "ウミ viết bằng hiragana là うみ"
-            },
-            {
-                word: "エキ",
-                options: ["いき", "おき", "えき", "あき"],
-                correct: 2,
-                explanation: "エキ viết bằng hiragana là えき"
-            },
-            {
-                word: "オカ",
-                options: ["うか", "あか", "いか", "おか"],
-                correct: 3,
-                explanation: "オカ viết bằng hiragana là おか"
-            },
-            {
-                word: "カキ",
-                options: ["きか", "かき", "くき", "けき"],
-                correct: 1,
-                explanation: "カキ viết bằng hiragana là かき"
-            },
-            {
-                word: "コレ",
-                options: ["くれ", "かれ", "これ", "きれ"],
-                correct: 2,
-                explanation: "コレ viết bằng hiragana là これ"
-            },
-            {
-                word: "アシタ",
-                options: ["あじた", "あきた", "あちた", "あした"],
-                correct: 3,
-                explanation: "アシタ viết bằng hiragana là あした"
-            },
-            {
-                word: "スシ",
-                options: ["しす", "じす", "ちす", "きす"],
+                word: "みどり",
+                options: ["màu xanh lá", "buổi trưa", "con khỉ", "màu đen"],
                 correct: 0,
-                explanation: "スシ viết bằng hiragana là シス"
+                explanation: "みどり là màu xanh lá"
             },
             {
-                word: "イス",
-                options: ["いず", "いす", "いつ", "いく"],
+                word: "いちじ",
+                options: ["gió", "một giờ", "tiệm thuốc", "con kiến"],
                 correct: 1,
-                explanation: "イス viết bằng hiragana là いす"
+                explanation: "いちじ là một giờ"
             },
             {
-                word: "ミセ",
-                options: ["みぜ", "みて", "みせ", "みね"],
+                word: "かぜ",
+                options: ["màu trắng", "đơn giản", "gió", "hoa anh đào"],
                 correct: 2,
-                explanation: "ミセ viết bằng hiragana là みせ"
+                explanation: "かぜ là gió"
             },
             {
-                word: "ソラ",
-                options: ["ぞら", "とら", "のら", "そら"],
+                word: "さくら",
+                options: ["con khỉ", "buổi trưa", "màu đen", "hoa anh đào"],
                 correct: 3,
-                explanation: "ソラ viết bằng hiragana là そら"
+                explanation: "さくら là hoa anh đào"
             },
             {
-                word: "トラ",
-                options: ["とら", "どら", "たら", "ちら"],
+                word: "あり",
+                options: ["con kiến", "màu trắng", "tiệm thuốc", "gió"],
                 correct: 0,
-                explanation: "トラ viết bằng hiragana là とら"
+                explanation: "あり là con kiến"
             },
             {
-                word: "ニワ",
-                options: ["かわ", "にわ", "みわ", "りわ"],
+                word: "さる",
+                options: ["đơn giản", "con khỉ", "bạn trai", "một giờ"],
                 correct: 1,
-                explanation: "ニワ viết bằng hiragana là にわ"
+                explanation: "さる là con khỉ"
             },
             {
-                word: "イヌ",
-                options: ["いね", "いの", "いぬ", "いな"],
+                word: "かれ",
+                options: ["hoa anh đào", "màu xanh lá", "bạn trai", "con kiến"],
                 correct: 2,
-                explanation: "イヌ viết bằng hiragana là いぬ"
+                explanation: "かれ là bạn trai"
             },
             {
-                word: "ハナ",
-                options: ["ばな", "ぱな", "まな", "はな"],
+                word: "ひる",
+                options: ["tiệm thuốc", "màu đen", "gió", "buổi trưa"],
                 correct: 3,
-                explanation: "ハナ viết bằng hiragana là はな"
+                explanation: "ひる là buổi trưa"
             },
             {
-                word: "ヒナン",
-                options: ["ひなん", "びなん", "ぴなん", "みなん"],
+                word: "くすりや",
+                options: ["tiệm thuốc", "đơn giản", "con khỉ", "màu trắng"],
                 correct: 0,
-                explanation: "ヒナン viết bằng hiragana là ひなん"
+                explanation: "くすりや là tiệm thuốc"
             },
             {
-                word: "フネ",
-                options: ["ぶね", "ふね", "ぷね", "ほね"],
+                word: "しろ",
+                options: ["buổi trưa", "màu trắng", "bạn trai", "hoa anh đào"],
                 correct: 1,
-                explanation: "フネ viết bằng hiragana là ふね"
+                explanation: "しろ là màu trắng"
             },
             {
-                word: "ヘヤ",
-                options: ["べや", "ぺや", "へや", "めや"],
+                word: "くろ",
+                options: ["một giờ", "con kiến", "màu đen", "gió"],
                 correct: 2,
-                explanation: "ヘヤ viết bằng hiragana là へや"
+                explanation: "くろ là màu đen"
             },
             {
-                word: "ホネ",
-                options: ["ぼね", "ぽね", "もね", "ほね"],
+                word: "かんたん",
+                options: ["màu xanh lá", "tiệm thuốc", "con khỉ", "đơn giản"],
                 correct: 3,
-                explanation: "ホネ viết bằng hiragana là ほね"
+                explanation: "かんたん là đơn giản"
             }
         ],
         fillBlank: [
             {
-                sentence: "こ___はせんぷう___ではありありません",
-                blanks: ["れ", "き"],
-                options: [["れ", "の", "ん", "と"], ["き", "し", "ち", "り"]],
-                explanation: "これはせんぷうきではありありません = Cái này không phải là máy quạt"
+                sentence: "___かぴ___",
+                blanks: ["ぴ", "か"],
+                options: [["ぴ", "び", "ぴ", "み"], ["か", "が", "さ", "た"]],
+                explanation: "ぴかぴか = chói loá"
             },
             {
-                sentence: "それは___うしで___ありません",
-                blanks: ["ぼ", "は"],
-                options: [["ぼ", "ほ", "も", "の"], ["は", "が", "を", "に"]],
-                explanation: "それはぼうしではありません = Cái đó không phải là cái nón"
+                sentence: "ご___ん",
+                blanks: ["は"],
+                options: [["は", "ば", "ぱ", "わ"]],
+                explanation: "ごはん = cơm"
             },
             {
-                sentence: "い___なん___ですか",
-                blanks: ["ま", "じ"],
-                options: [["ま", "み", "む", "め"], ["じ", "ぎ", "び", "ぴ"]],
-                explanation: "いまなんじですか = Bây giờ là mấy giờ"
+                sentence: "お___や___",
+                blanks: ["み", "げ"],
+                options: [["み", "に", "り", "き"], ["げ", "か", "う", "い"]],
+                explanation: "おみやげ = quà lưu niệm"
+            },
+            {
+                sentence: "ゆ___",
+                blanks: ["び"],
+                options: [["び", "ぴ", "み", "り"]],
+                explanation: "ゆび = ngón tay"
+            },
+            {
+                sentence: "か___だ",
+                blanks: ["ら"],
+                options: [["ら", "り", "る", "れ"]],
+                explanation: "からだ = cơ thể"
+            },
+            {
+                sentence: "か___　___",
+                blanks: ["ぞ", "く"],
+                options: [["ぞ", "そ", "ど", "と"], ["く", "ー", "う", "い"]],
+                explanation: "かぞく = gia đình"
+            },
+            {
+                sentence: "が___",
+                blanks: ["か"],
+                options: [["か", "が", "ま", "は"]],
+                explanation: "がか = họa sĩ"
+            },
+            {
+                sentence: "___ど___",
+                blanks: ["み", "り"],
+                options: [["み", "に", "り", "き"], ["き", "り", "う", "い"]],
+                explanation: "みどり = màu xanh lá"
+            },
+            {
+                sentence: "い___じ",
+                blanks: ["ち"],
+                options: [["ち", "し", "き", "り"]],
+                explanation: "いちじ = một giờ"
+            },
+            {
+                sentence: "か___",
+                blanks: ["ぜ"],
+                options: [["ぜ", "せ", "で", "て"]],
+                explanation: "かぜ = gió"
+            },
+            {
+                sentence: "か___",
+                blanks: ["れ"],
+                options: [["れ", "あ", "り", "ふ"]],
+                explanation: "かれ = bạn trai"
+            },
+            {
+                sentence: "___る",
+                blanks: ["ひ"],
+                options: [["ひ", "び", "ぴ", "プ"]],
+                explanation: "ひる = buổi trưa"
+            },
+            {
+                sentence: "___ろ",
+                blanks: ["し"],
+                options: [["し", "ち", "き", "り"]],
+                explanation: "しろ = màu trắng"
+            },
+            {
+                sentence: "く___",
+                blanks: ["ろ"],
+                options: [["ろ", "あ", "ぶ", "れ"]],
+                explanation: "くろ = màu đen"
+            },
+            {
+                sentence: "か___た___",
+                blanks: ["ん", "ん"],
+                options: [["ん", "ま", "な", "ら"], ["れ", "ん", "う", "い"]],
+                explanation: "かんたん = đơn giản"
             }
         ],
         sentenceOrder: [
             {
-                words: ["ん", "で", "い", "す", "じ", "ま", "か", "な"],
-                correct: [2, 5, 7, 0, 4, 1, 3, 6],
-                correctSentence: "いまなんじですか",
-                explanation: "いまなんじですか = Bây giờ là mấy giờ"
+                words: ["は", "ではありません", "それ", "でぐち"],
+                correct: [2, 0, 3, 1],
+                correctSentence: "1234",
+                explanation: "1234 = Đó không phải là lối ra"
             },
             {
-                words: ["す", "ご", "く", "で", "じ", "ん", "ふ", "ま", "い"],
-                correct: [8, 7, 2, 4, 1, 6, 5, 3, 0],
-                correctSentence: "いまくじごふんです",
-                explanation: "いまくじごふんです = Bây giờ là 9 giờ 5 phút"
+                words: ["みず", "あれ", "です", "は"],
+                correct: [1, 3, 0, 2],
+                correctSentence: "1234",
+                explanation: "1234 = Kia là nước"
             },
             {
-                words: ["ん", "す", "ご", "ふ", "じ", "い", "じゅ", "う", "ま", "よ", "で"],
-                correct: [5, 8, 9, 4, 6, 7, 2, 3, 0, 10,1],
-                correctSentence: "いまよじじゅうごふんです",
-                explanation: "いまよじじゅうごふんです = Bây giờ là 4 giờ 15 phút"
+                words: ["ではありません", "は", "それ", "さくら"],
+                correct: [2, 1, 3, 0],
+                correctSentence: "1234",
+                explanation: "1234 = Đó không phải hoa anh đào"
             },
             {
-                words: ["ぷ", "ん", "じ", "は", "ま", "い", "じゅ", "っ", "す", "で", "ち", "に"],
-                correct: [5, 4, 3, 10, 2, 11, 6, 7, 0, 1, 9, 8],
-                correctSentence: "いまはちじにじゅっぷんです",
-                explanation: "いまはちじにじゅっぷんです = Bây giờ là 8 giờ 10 phút"
+                words: ["は", "です", "あり", "あれ"],
+                correct: [3, 0, 2, 1],
+                correctSentence: "1234",
+                explanation: "1234 = Kia là kiến"
+            },
+            {
+                words: ["かぎ", "ではありません", "は", "これ"],
+                correct: [3, 2, 0, 1],
+                correctSentence: "1234",
+                explanation: "1234 = Cái này không phải chìa khóa"
+            },
+            {
+                words: ["で", "ち", "は", "ぐ", "こ", "い", "す", "り", "れ"],
+                correct: [4, 8, 2, 5, 7, 3, 1, 0, 6],
+                correctSentence: "これはいりぐちです",
+                explanation: "これはいりぐちです = Đây là lối vào"
+            },
+            {
+                words: ["や", "す", "く", "れ", "は", "り", "す", "で", "こ"],
+                correct: [8, 3, 4, 2, 5, 6, 0, 7, 1],
+                correctSentence: "これはくすりやです",
+                explanation: "これはくすりやです = Đây là tiệm thuốc"
+            },
+            {
+                words: ["す", "ど", "は", "ま", "あ", "で", "れ"],
+                correct: [4, 6, 2, 3, 1, 5, 0],
+                correctSentence: "あれはまどです",
+                explanation: "あれはまどです = Kia là cửa sổ"
             }
         ]
     },

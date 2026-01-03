@@ -15,7 +15,8 @@ export default defineConfig({
 })
 
 copy thừ mục .github vào dự án
-
+trong file package.json, chổ thuộc tính scripts thay sử đổi build thành:
+    "build": "vite build",
 chạy lệnh npm i -D gh-pages
 
 npm run build

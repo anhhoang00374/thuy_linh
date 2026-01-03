@@ -8,15 +8,16 @@ export default function JapaneseTestApp() {
     const sections = [
         { name: 'Chọn đáp án', data: DATA.multipleChoice, type: 'multiple' },
         { name: 'Ghép từ', data: DATA.matching, type: 'matching' },
-        { name: 'Nhập từ', data: DATA.typing, type: 'typing' },
+        // { name: 'Nhập từ', data: DATA.typing, type: 'typing' },
         { name: 'Chọn cách đọc đúng', data: DATA.wordConnect, type: 'connect' },
-        // { name: 'Điền từ', data: DATA.fillBlank, type: 'fill' },
-        // { name: 'Sắp xếp câu', data: DATA.sentenceOrder, type: 'order' },
+        { name: 'Điền từ', data: DATA.fillBlank, type: 'fill' },
+        { name: 'Sắp xếp câu', data: DATA.sentenceOrder, type: 'order' },
 
     ];
 
     const not_test_lesson = ['test1','test2'];
-    const not_test = ["Điền từ", "Sắp xếp câu"];
+    //const not_test = ["Điền từ", "Sắp xếp câu"];
+    const not_test = ['Nhập từ'];
     const [studentName, setStudentName] = useState('');
     const [hasStarted, setHasStarted] = useState(false);
     const [startTime, setStartTime] = useState(null);
