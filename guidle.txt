@@ -1,0 +1,15 @@
+tạo một dự án mới
+ npm create vite@latest my-app -- --template react-ts
+ cd my-app
+ npm install
+ nếu thiếu thư viện thì chạy npm install lucide-react
+ copy 2 file  app. tsx và data.tsx vào
+ sửa ở file index.html
+
+ thêm vào file vite.config.ts đoạn code
+export default defineConfig({
+  plugins: [react()],
+    base: "/thuy_linh/"
+})
+
+copy thừ mục .github vào dự án
