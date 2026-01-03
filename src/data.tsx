@@ -270,12 +270,6 @@ export const ALL_TESTS = {
                 explanation: "これはいりぐちです = Đây là lối vào"
             },
             {
-                words: ["や", "す", "く", "れ", "は", "り", "す", "で", "こ"],
-                correct: [8, 3, 4, 2, 5, 6, 0, 7, 1],
-                correctSentence: "これはくすりやです",
-                explanation: "これはくすりやです = Đây là tiệm thuốc"
-            },
-            {
                 words: ["す", "ど", "は", "ま", "あ", "で", "れ"],
                 correct: [4, 6, 2, 3, 1, 5, 0],
                 correctSentence: "あれはまどです",
