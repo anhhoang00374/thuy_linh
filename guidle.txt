@@ -6,17 +6,22 @@ tạo một dự án mới
  copy 2 file  app. tsx và data.tsx vào
  sửa ở file index.html
 
+tạo mới một repo
+
  thêm vào file vite.config.ts đoạn code
 export default defineConfig({
   plugins: [react()],
     base: "/thuy_linh/" // với thuy_linh là repo trên github
 })
 
-npm run build
-
 copy thừ mục .github vào dự án
 
-tạo mới một repo và đẩy hết code lên
+chạy lệnh npm i -D gh-pages
 
-vào setting page, chọn nhánh main, sau đó nhấn lưu
-chọn vào your site để xem
+npm run build
+
+đẩy hết code lên repo
+
+
+vào setting page, chọn nhánh gp-pages, sau đó nhấn lưu
+ chờ một lí và loading lại trang
