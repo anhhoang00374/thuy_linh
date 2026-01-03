@@ -9,7 +9,12 @@ tạo một dự án mới
  thêm vào file vite.config.ts đoạn code
 export default defineConfig({
   plugins: [react()],
-    base: "/thuy_linh/"
+    base: "/thuy_linh/" // với thuy_linh là repo trên github
 })
 
 copy thừ mục .github vào dự án
+
+tạo mới một repo và đẩy hết code lên
+
+vào setting page, chọn nhánh main, sau đó nhấn lưu
+chọn vào your site để xem
