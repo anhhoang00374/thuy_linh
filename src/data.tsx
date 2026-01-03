@@ -1,6 +1,6 @@
 export const ALL_TESTS = {
     test1: {
-        name: 'Bài test 11 - Ngày 03-01-2026',
+        name: 'Bài test 1 - Ngày 03-01-2026',
         multipleChoice: [
             { question: "Chọn cách viết Katakana đúng của 'やま':", options: ["ヤマ", "ムシ", "モモ", "サクラ"], correct: 0, explanation: "やま viết bằng Katakana là ヤマ" },
             { question: "Chọn cách viết Katakana đúng của 'やすみ':", options: ["ムシ", "ヤスミ", "ヒル", "シロ"], correct: 1, explanation: "やすみ viết bằng Katakana là ヤスミ" },
