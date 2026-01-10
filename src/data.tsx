@@ -1,4 +1,205 @@
 export const ALL_TESTS = {
+    test2: {
+        name: 'Bài test 2 - Ngày 10-01-2026',
+        multipleChoice: [
+            { question: "Chọn nghĩa đúng của từ 'Bút chì':", options: ["たんぼ", "えんぴつ", "まんが", "でんき"], correct: 1, explanation: "えんぴつ nghĩa là Bút chì" },
+            { question: "Chọn nghĩa đúng của từ 'Ruộng lúa':", options: ["たんぼ", "にほんご", "せんたく", "ほんだな"], correct: 0, explanation: "たんぼ nghĩa là Ruộng lúa" },
+            { question: "Chọn nghĩa đúng của từ 'Tiếng Nhật':", options: ["まんが", "でんき", "にほんご", "かんじ"], correct: 2, explanation: "にほんご nghĩa là Tiếng Nhật" },
+            { question: "Chọn nghĩa đúng của từ 'Truyện tranh':", options: ["えんぴつ", "たんぼ", "しんぶん", "まんが"], correct: 3, explanation: "まんが nghĩa là Truyện tranh" },
+            { question: "Chọn nghĩa đúng của từ 'Điện':", options: ["でんき", "せんたく", "かんじ", "ほんだな"], correct: 0, explanation: "でんき nghĩa là Điện" },
+            { question: "Chọn nghĩa đúng của từ 'Việc giặc giũ':", options: ["にほんご", "せんたく", "まんが", "さっか"], correct: 1, explanation: "せんたく nghĩa là Việc giặc giũ" },
+            { question: "Chọn nghĩa đúng của từ 'Chữ Hán':", options: ["しんぶん", "えんぴつ", "かんじ", "たんぼ"], correct: 2, explanation: "かんじ nghĩa là Chữ Hán" },
+            { question: "Chọn nghĩa đúng của từ 'Kệ sách':", options: ["でんき", "ほんだな", "せんたく", "まんが"], correct: 1, explanation: "ほんだな nghĩa là Kệ sách" },
+            { question: "Chọn nghĩa đúng của từ 'Báo':", options: ["かんじ", "にほんご", "しんぶん", "さっか"], correct: 2, explanation: "しんぶん nghĩa là Báo" },
+            { question: "Chọn nghĩa đúng của từ 'Tác giả':", options: ["たんぼ", "えんぴつ", "ほんだな", "さっか"], correct: 3, explanation: "さっか nghĩa là Tác giả" }
+        ],
+        matching: [{
+            left: [
+                "いま　なんじ　ですか",
+                "いま　くじはん　ですか",
+                "これは　なんですか",
+                "あれは　いすですか",
+                "それは　ばら　ですか"
+            ],
+            right: [
+                "はい、そうです",
+                "いいえ、あれは　つくえ　です",
+                "いま　しちじ　です",
+                "これは　きです",
+                "いいえ、いま　じゅうじはん　です"
+            ],
+            correctPairs: [[0, 2], [1, 4], [2, 3], [3, 1], [4, 0]],
+            explanation: "いま　なんじ　ですか = いま　しちじ　です, いま　くじはん　ですか = いいえ、いま　じゅうじはん　です, これは　なんですか = これは　きです, あれは　いすですか = いいえ、あれは　つくえ　です, それは　ばら　ですか = はい、そうです"
+        }]
+        ,
+        typing: [
+            {
+                question: "Tôi thích hoa",
+                placeholder: "Nhập câu có nghĩa Tôi thích hoa",
+                correct: "わたしははながすきです",
+                hint: "わたし + は + はな + が + すき + です",
+                explanation: "わたしははながすきです là Tôi thích hoa"
+            },
+            {
+                question: "Tôi 12 tuổi",
+                placeholder: "Nhập câu có nghĩa Tôi 12 tuổi",
+                correct: "わたしはじゅうにさいです",
+                hint: "わたし + は + じゅうにさい + です",
+                explanation: "わたしはじゅうにさいです là Tôi 12 tuổi"
+            },
+            {
+                question: "Giáo viên không phải 35 tuổi",
+                placeholder: "Nhập câu có nghĩa Giáo viên không phải 35 tuổi",
+                correct: "せんせさんじゅうごさいではありません",
+                hint: "せんせい + は + さんじゅうごさい + ではありません",
+                explanation: "せんせさんじゅうごさいではありません là Giáo viên không phải 35 tuổi"
+            }
+        ],
+        wordConnect: [
+            {
+                word: "がっき",
+                options: ["Nhạc cụ", "Nhật ký", "Tạp chí", "Con tem"],
+                correct: 0,
+                explanation: "がっき là nhạc cụ"
+            },
+            {
+                word: "にっき",
+                options: ["Việc kết hôn", "Nhật ký", "Vé tàu", "Chiếc lá"],
+                correct: 1,
+                explanation: "にっき là nhật ký"
+            },
+            {
+                word: "けっこん",
+                options: ["Cái đuôi", "Tạp chí", "Việc kết hôn", "Nhạc cụ"],
+                correct: 2,
+                explanation: "けっこん là việc kết hôn"
+            },
+            {
+                word: "ざっし",
+                options: ["Nhật ký", "Con tem", "1 tuổi", "Tạp chí"],
+                correct: 3,
+                explanation: "ざっし là tạp chí"
+            },
+            {
+                word: "いっさい",
+                options: ["1 tuổi", "Vé tàu", "Chiếc lá", "Nhạc cụ"],
+                correct: 0,
+                explanation: "いっさい là 1 tuổi"
+            },
+            {
+                word: "きって",
+                options: ["Việc kết hôn", "Con tem", "Cái đuôi", "Tạp chí"],
+                correct: 1,
+                explanation: "きって là con tem"
+            },
+            {
+                word: "きっぷ",
+                options: ["Nhật ký", "Chiếc lá", "Vé tàu", "1 tuổi"],
+                correct: 2,
+                explanation: "きっぷ là vé tàu"
+            },
+            {
+                word: "はっぱ",
+                options: ["Con tem", "Nhạc cụ", "Tạp chí", "Chiếc lá"],
+                correct: 3,
+                explanation: "はっぱ là chiếc lá"
+            },
+            {
+                word: "しっぽ",
+                options: ["Cái đuôi", "Việc kết hôn", "Nhật ký", "Vé tàu"],
+                correct: 0,
+                explanation: "しっぽ là cái đuôi"
+            }
+        ],
+        fillBlank: [
+            {
+                sentence: "え___ぴ___",
+                blanks: ["ん", "つ"],
+                options: [["ん", "い", "っ", "り"], ["つ", "ち", "す", "く"]],
+                explanation: "えんぴつ = Bút chì"
+            },
+            {
+                sentence: "に___ん___",
+                blanks: ["ほ", "ご"],
+                options: [["ほ", "は", "ひ", "へ"], ["ご", "こ", "が", "ぎ"]],
+                explanation: "にほんご = Tiếng Nhật"
+            },
+            {
+                sentence: "ま___が___",
+                blanks: ["ん"],
+                options: [["ん", "い", "っ", "き"]],
+                explanation: "まんが = Truyện tranh"
+            },
+            {
+                sentence: "で___き___",
+                blanks: ["ん"],
+                options: [["ん", "い", "っ", "り"]],
+                explanation: "でんき = Điện"
+            },
+            {
+                sentence: "せ___た___",
+                blanks: ["ん", "く"],
+                options: [["ん", "い", "っ", "き"], ["く", "き", "け", "こ"]],
+                explanation: "せんたく = Việc giặt giũ"
+            },
+            {
+                sentence: "ほ___だ___",
+                blanks: ["ん", "な"],
+                options: [["ん", "い", "っ", "き"], ["な", "に", "ぬ", "の"]],
+                explanation: "ほんだな = Kệ sách"
+            },
+            {
+                sentence: "し___ぶ___",
+                blanks: ["ん", "ん"],
+                options: [["ん", "い", "っ", "き"], ["ん", "い", "っ", "り"]],
+                explanation: "しんぶん = Báo"
+            },
+            {
+                sentence: "に___き",
+                blanks: ["っ"],
+                options: [["っ", "ん", "い", "り"]],
+                explanation: "にっき = Nhật ký"
+            },
+            {
+                sentence: "け___こ___",
+                blanks: ["っ", "ん"],
+                options: [["っ", "ん", "い", "き"], ["ん", "い", "っ", "り"]],
+                explanation: "けっこん = Việc kết hôn"
+            }
+        ],
+        sentenceOrder: [
+            {
+                words: ["なんじ", "か", "いま", "です"],
+                correct: [2, 0, 3, 1],
+                correctSentence: "いまなんじですか",
+                explanation: "いまなんじですか = Bây giờ là mấy giờ"
+            },
+            {
+                words: ["なん", "これ", "ですか", "は"],
+                correct: [1, 3, 0, 2],
+                correctSentence: "これはなんですか",
+                explanation: "これはなんですか = Đây là cái gì"
+            },
+            {
+                words: ["ではありません", "それは", "いいえ、", "さくら"],
+                correct: [2, 1, 3, 0],
+                correctSentence: "いいえ、それはさくらではありません",
+                explanation: "いいえ、それはさくらではありません = Không,đó không phải hoa anh đào"
+            },
+            {
+                words: ["くじ", "です", "はん", "いま"],
+                correct: [3, 0, 2, 1],
+                correctSentence: "いまくじはんです",
+                explanation: "いまくじはんです = Bây giò là 9h rưỡi"
+            },
+            {
+                words: ["じゅうごふん", "ではありません", "しちじ", "いま"],
+                correct: [3, 2, 0, 1],
+                correctSentence: "1234",
+                explanation: "いましちじじゅうごふんではありません = Cái này không phải chìa khóa"
+            }
+        ]
+    },
     test1: {
         name: 'Bài test 1 - Ngày 03-01-2026',
         multipleChoice: [
